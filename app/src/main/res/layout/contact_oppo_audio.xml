@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="top"
+            android:src="@drawable/heart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+
+            android:background="@drawable/white_talk"
+            android:layout_gravity="top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/oppo_audio_click" >
+
+            <ImageView
+                android:src="@drawable/yuyintubiao_others"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4" />
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Small Text"
+                android:id="@+id/oppo_audio_time" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
